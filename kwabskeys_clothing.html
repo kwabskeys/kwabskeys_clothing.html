@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KwabsKeys Clothing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #4f46e5;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background-color: #eef2ff;
+        }
+        .hero h2 {
+            font-size: 2rem;
+            color: #1e3a8a;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            margin: 1rem;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product h3 {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+        }
+        .product p {
+            color: #555;
+            margin: 0.5rem 0;
+        }
+        .product button {
+            background-color: #4f46e5;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .product button:hover {
+            background-color: #3730a3;
+        }
+        footer {
+            text-align: center;
+            background-color: #1e3a8a;
+            color: white;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KwabsKeys Clothing</h1>
+    </header>
+    <nav>
+        <a href="#shoes">Shoes</a>
+        <a href="#clothes">Clothes</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="hero">
+        <h2>Your One-Stop Shop for Stylish Shoes and Clothes!</h2>
+        <p>Discover the latest trends and timeless classics at KwabsKeys Clothing.</p>
+    </div>
+    <section id="shoes" class="products">
+        <div class="product">
+            <img src="shoe1.jpg" alt="Stylish Sneakers">
+            <h3>Dr Martins shoes</h3>
+            <p>Price: GHC 220</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="shoe2.jpg" alt="Sneakers">
+            <h3>Classic Loafers</h3>
+            <p>Price: GHC 150</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+    <section id="clothes" class="products">
+        <div class="product">
+            <img src="shirt1.jpg" alt="Casual Shirt">
+            <h3>Casual Shirt</h3>
+            <p>Price: GHC 150</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="shorts1.jpg" alt="mens shirts">
+            <h3>shorts</h3>
+            <p>Price: GHC 100</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+    <footer id="contact">
+        <p>Contact us at:0541480491 <a href="mailto:kwabskeys@shop.com" style="color: white;">kwabskeys@shop.com</a></p>
+        <p>&copy; 2024 KwabsKeys Clothing. All rights reserved.</p>
+    </footer>
+</body>
+</html>
